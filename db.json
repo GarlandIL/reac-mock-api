@@ -1,0 +1,1889 @@
+{
+  "customers": [
+    {
+      "id": "customer-1",
+      "firstName": "Ashley",
+      "lastName": "Johnson",
+      "title": "Mrs",
+      "email": "ashley.johnson@email.com",
+      "password": "password123",
+      "phone": "+1 (555) 123-4567",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "address": "",
+      "verified": true,
+      "joinDate": "2024-01-15",
+      "paymentMethods": [
+        {
+          "id": "pm-1",
+          "type": "credit_card",
+          "brand": "visa",
+          "last4": "4242",
+          "expiryMonth": 12,
+          "expiryYear": 2027,
+          "isDefault": true,
+          "cardholderName": "Ashley Johnson"
+        },
+        {
+          "id": "pm-3",
+          "type": "revolut",
+          "last4": "4242",
+          "isDefault": false
+        }
+      ],
+      "onboardingComplete": true,
+      "preferences": {
+        "propertyType": "house",
+        "budgetRange": {
+          "min": 50000,
+          "max": 2720000
+        }
+      }
+    },
+    {
+      "id": "customer-2",
+      "firstName": "John",
+      "lastName": "Doe",
+      "title": "Mr",
+      "email": "john.doe@email.com",
+      "password": "password123",
+      "phone": "+1 (555) 987-6543",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "address": "789 Pine Street, San Francisco, CA 94101",
+      "verified": true,
+      "joinDate": "2024-02-20",
+      "paymentMethods": [
+        {
+          "id": "pm-4",
+          "type": "credit_card",
+          "brand": "mastercard",
+          "last4": "5678",
+          "expiryMonth": 11,
+          "expiryYear": 2028,
+          "isDefault": true,
+          "cardholderName": "John Doe"
+        }
+      ],
+      "onboardingComplete": false,
+      "preferences": null
+    },
+    {
+      "id": "customer-1776170260696",
+      "firstName": "lkj",
+      "lastName": "kjkhjb",
+      "title": "Mr",
+      "email": "ASHLEY.JOHNSON@EMAIL.COM",
+      "phone": "+23490876876",
+      "dateOfBirth": "1965-04-13",
+      "password": "Password123!",
+      "userType": "buyer",
+      "onboardingComplete": false,
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "verified": false,
+      "joinDate": "2026-04-14",
+      "paymentMethods": []
+    },
+    {
+      "id": "customer-1776178397495",
+      "firstName": "hjg",
+      "lastName": "jkhghhjb",
+      "title": "Mr",
+      "email": "ashley.json@email.com",
+      "phone": "+234897665767",
+      "dateOfBirth": "1888-04-21",
+      "password": "Password123!",
+      "userType": "buyer",
+      "onboardingComplete": false,
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "verified": true,
+      "joinDate": "2026-04-14",
+      "paymentMethods": [],
+      "address": "123 main street",
+      "preferences": {
+        "propertyType": "house",
+        "budgetRange": {
+          "min": 50000,
+          "max": "2640000"
+        }
+      }
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent-1",
+      "firstName": "Rachel",
+      "lastName": "Zegler",
+      "email": "rachel.zegler@movelle.com",
+      "phone": "+1 (555) 234-5678",
+      "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "company": "Movelle Real Estate",
+      "role": "Agent"
+    },
+    {
+      "id": "agent-2",
+      "firstName": "Florencio",
+      "lastName": "Dorrance",
+      "email": "florencio.dorrance@movelle.com",
+      "phone": "+1 (555) 987-6543",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "company": "Movelle Real Estate",
+      "role": "Agent"
+    },
+    {
+      "id": "agent-3",
+      "firstName": "Jack",
+      "lastName": "Doherty",
+      "email": "jack.doherty@movelle.com",
+      "phone": "+1 (555) 456-7890",
+      "avatar": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "company": "Movelle Real Estate",
+      "role": "Agent"
+    },
+    {
+      "id": "agent-4",
+      "firstName": "Lavern",
+      "lastName": "Laboy",
+      "email": "lavern.laboy@movelle.com",
+      "phone": "+1 (555) 111-2222",
+      "avatar": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "company": "Movelle Real Estate",
+      "role": "Agent"
+    },
+    {
+      "id": "agent-5",
+      "firstName": "Titus",
+      "lastName": "Kitamura",
+      "email": "titus.kitamura@movelle.com",
+      "phone": "+1 (555) 333-4444",
+      "avatar": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "company": "Movelle Real Estate",
+      "role": "Agent"
+    },
+    {
+      "id": "agent-6",
+      "firstName": "Julie",
+      "lastName": "Long",
+      "email": "julie.long@movelle.com",
+      "phone": "+1 (555) 555-6666",
+      "avatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "company": "Movelle Real Estate",
+      "role": "Agent"
+    }
+  ],
+  "listedProperties": [
+    {
+      "id": "prop-1",
+      "title": "Spacious Family House",
+      "address": "123 Main St, Los Angeles, CA 90001",
+      "price": 750000,
+      "type": "house",
+      "status": "owned",
+      "listingType": "purchase",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 2200,
+      "lotSize": "0.25 acres",
+      "yearBuilt": 2018,
+      "images": [
+        "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "description": "Beautiful modern home with open floor plan and premium finishes throughout.",
+      "amenities": [
+        "Air Conditioning",
+        "Hardwood Floors",
+        "Security System",
+        "Fireplace",
+        "Garage",
+        "Pool",
+        "City View",
+        "Balcony"
+      ],
+      "location": {
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "neighborhood": "Downtown LA",
+        "walkScore": 85
+      },
+      "agentId": "agent-1",
+      "availability": {
+        "availableDates": [
+          "2025-11-14",
+          "2025-11-15",
+          "2025-11-16",
+          "2025-11-17",
+          "2025-11-21",
+          "2025-11-22",
+          "2025-11-25",
+          "2025-11-28",
+          "2025-11-29",
+          "2025-12-01",
+          "2025-12-02",
+          "2025-12-05",
+          "2025-12-06",
+          "2025-12-08",
+          "2025-12-12"
+        ],
+        "timeSlots": [
+          {
+            "time": "09:00 AM",
+            "available": true
+          },
+          {
+            "time": "10:00 AM",
+            "available": true
+          },
+          {
+            "time": "11:00 AM",
+            "available": false
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": true
+          },
+          {
+            "time": "03:00 PM",
+            "available": false
+          },
+          {
+            "time": "04:00 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-10-01"
+    },
+    {
+      "id": "prop-2",
+      "title": "High-Yield Commercial Property",
+      "address": "900 Commerce Blvd, Los Angeles, CA 90021",
+      "price": 3400000,
+      "monthlyRent": 18000,
+      "type": "commercial",
+      "status": "available",
+      "listingType": "rent",
+      "sqft": 5000,
+      "yearBuilt": 2019,
+      "images": [
+        "https://images.pexels.com/photos/2609204/pexels-photo-2609204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "description": "Prime commercial space in a high-traffic area, ideal for retail or office use.",
+      "amenities": [
+        "Elevator",
+        "Parking",
+        "Security"
+      ],
+      "location": {
+        "lat": 34.0333,
+        "lng": -118.2426,
+        "neighborhood": "Commercial District",
+        "walkScore": 90
+      },
+      "agentId": "agent-1",
+      "availability": {
+        "availableDates": [
+          "2025-11-15",
+          "2025-11-18",
+          "2025-11-19",
+          "2025-11-20",
+          "2025-11-22",
+          "2025-11-26",
+          "2025-11-27",
+          "2025-11-29",
+          "2025-12-03",
+          "2025-12-04",
+          "2025-12-07",
+          "2025-12-10",
+          "2025-12-11",
+          "2025-12-13",
+          "2025-12-14"
+        ],
+        "timeSlots": [
+          {
+            "time": "08:00 AM",
+            "available": true
+          },
+          {
+            "time": "09:00 AM",
+            "available": true
+          },
+          {
+            "time": "10:00 AM",
+            "available": false
+          },
+          {
+            "time": "11:00 AM",
+            "available": true
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": false
+          },
+          {
+            "time": "03:00 PM",
+            "available": true
+          },
+          {
+            "time": "04:00 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": null,
+      "listingDate": "2024-09-15"
+    },
+    {
+      "id": "prop-3",
+      "title": "Seaside Villa",
+      "address": "456 Ocean Dr, Malibu, CA 90265",
+      "price": 1500000,
+      "monthlyRent": null,
+      "type": "house",
+      "status": "available",
+      "listingType": "purchase",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 3200,
+      "yearBuilt": 2020,
+      "images": [
+        "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "description": "Stunning seaside villa with breathtaking ocean views and direct beach access.",
+      "amenities": [
+        "Ocean View",
+        "Pool",
+        "Garage",
+        "Security System"
+      ],
+      "location": {
+        "lat": 34.0322,
+        "lng": -118.6737,
+        "neighborhood": "Malibu",
+        "walkScore": 75
+      },
+      "agentId": "agent-2",
+      "availability": {
+        "availableDates": [
+          "2025-11-16",
+          "2025-11-17",
+          "2025-11-19",
+          "2025-11-21",
+          "2025-11-23",
+          "2025-11-24",
+          "2025-11-25",
+          "2025-11-28",
+          "2025-11-30",
+          "2025-12-02",
+          "2025-12-05",
+          "2025-12-06",
+          "2025-12-09",
+          "2025-12-12",
+          "2025-12-15"
+        ],
+        "timeSlots": [
+          {
+            "time": "09:30 AM",
+            "available": true
+          },
+          {
+            "time": "10:30 AM",
+            "available": true
+          },
+          {
+            "time": "11:30 AM",
+            "available": false
+          },
+          {
+            "time": "12:30 PM",
+            "available": true
+          },
+          {
+            "time": "01:30 PM",
+            "available": true
+          },
+          {
+            "time": "02:30 PM",
+            "available": true
+          },
+          {
+            "time": "03:30 PM",
+            "available": false
+          },
+          {
+            "time": "04:30 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-08-01"
+    },
+    {
+      "id": "prop-4",
+      "title": "Mountain Retreat",
+      "address": "789 Pine Ave, Big Bear, CA 92315",
+      "price": 500000,
+      "monthlyRent": null,
+      "type": "house",
+      "status": "available",
+      "listingType": "purchase",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1200,
+      "yearBuilt": 2015,
+      "images": [
+        "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "description": "Charming mountain retreat with stunning views, perfect as a vacation home or investment property.",
+      "amenities": [
+        "Fireplace",
+        "Mountain View",
+        "Deck"
+      ],
+      "location": {
+        "lat": 34.2437,
+        "lng": -116.9114,
+        "neighborhood": "Big Bear",
+        "walkScore": 50
+      },
+      "agentId": "agent-3",
+      "availability": {
+        "availableDates": [
+          "2025-11-14",
+          "2025-11-15",
+          "2025-11-18",
+          "2025-11-20",
+          "2025-11-22",
+          "2025-11-25",
+          "2025-11-26",
+          "2025-11-29",
+          "2025-12-01",
+          "2025-12-03",
+          "2025-12-06",
+          "2025-12-08",
+          "2025-12-10",
+          "2025-12-13",
+          "2025-12-14"
+        ],
+        "timeSlots": [
+          {
+            "time": "08:00 AM",
+            "available": true
+          },
+          {
+            "time": "09:00 AM",
+            "available": false
+          },
+          {
+            "time": "10:00 AM",
+            "available": true
+          },
+          {
+            "time": "11:00 AM",
+            "available": true
+          },
+          {
+            "time": "12:00 PM",
+            "available": false
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": true
+          },
+          {
+            "time": "03:00 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-07-01"
+    },
+    {
+      "id": "prop-5",
+      "title": "Modern Downtown Condo",
+      "address": "123 Business District, Los Angeles, CA 90015",
+      "price": 650000,
+      "monthlyRent": null,
+      "type": "apartment",
+      "status": "available",
+      "listingType": "purchase",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1100,
+      "yearBuilt": 2022,
+      "images": [
+        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "description": "Brand new condo in the heart of downtown with stunning city views and modern amenities.",
+      "amenities": [
+        "Rooftop Pool",
+        "Fitness Center",
+        "Concierge",
+        "Underground Parking",
+        "Smart Home Features"
+      ],
+      "location": {
+        "lat": 34.0444,
+        "lng": -118.2509,
+        "neighborhood": "Financial District",
+        "walkScore": 95
+      },
+      "agentId": "agent-1",
+      "availability": {
+        "availableDates": [
+          "2025-11-14",
+          "2025-11-15",
+          "2025-11-16",
+          "2025-11-17",
+          "2025-11-18",
+          "2025-11-21",
+          "2025-11-22",
+          "2025-11-23",
+          "2025-11-25",
+          "2025-11-26",
+          "2025-11-28",
+          "2025-11-29",
+          "2025-12-01",
+          "2025-12-02",
+          "2025-12-05"
+        ],
+        "timeSlots": [
+          {
+            "time": "09:00 AM",
+            "available": true
+          },
+          {
+            "time": "10:00 AM",
+            "available": true
+          },
+          {
+            "time": "11:00 AM",
+            "available": true
+          },
+          {
+            "time": "12:00 PM",
+            "available": false
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": true
+          },
+          {
+            "time": "03:00 PM",
+            "available": true
+          },
+          {
+            "time": "04:00 PM",
+            "available": false
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-01-10"
+    },
+    {
+      "id": "prop-6",
+      "title": "Luxury Beachfront Villa",
+      "address": "1 Ocean View Drive, Malibu, CA 90265",
+      "price": 3200000,
+      "monthlyRent": null,
+      "type": "house",
+      "status": "available",
+      "listingType": "purchase",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 4500,
+      "lotSize": "0.5 acres",
+      "yearBuilt": 2020,
+      "images": [
+        "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "description": "Stunning beachfront property with private access to the beach, infinity pool, and panoramic ocean views.",
+      "amenities": [
+        "Private Beach Access",
+        "Infinity Pool",
+        "Home Theater",
+        "Wine Cellar",
+        "Smart Home System",
+        "Guest House"
+      ],
+      "location": {
+        "lat": 34.0259,
+        "lng": -118.7798,
+        "neighborhood": "Malibu Beach",
+        "walkScore": 45
+      },
+      "agentId": "agent-2",
+      "availability": {
+        "availableDates": [
+          "2025-11-15",
+          "2025-11-16",
+          "2025-11-19",
+          "2025-11-20",
+          "2025-11-22",
+          "2025-11-24",
+          "2025-11-26",
+          "2025-11-27",
+          "2025-11-29",
+          "2025-12-01",
+          "2025-12-03",
+          "2025-12-04",
+          "2025-12-06",
+          "2025-12-08",
+          "2025-12-11"
+        ],
+        "timeSlots": [
+          {
+            "time": "10:00 AM",
+            "available": true
+          },
+          {
+            "time": "11:00 AM",
+            "available": true
+          },
+          {
+            "time": "12:00 PM",
+            "available": false
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": true
+          },
+          {
+            "time": "03:00 PM",
+            "available": true
+          },
+          {
+            "time": "04:00 PM",
+            "available": false
+          },
+          {
+            "time": "05:00 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-01-08"
+    },
+    {
+      "id": "prop-7",
+      "title": "Suburban Family Home",
+      "address": "456 Maple Street, Pasadena, CA 91101",
+      "price": 850000,
+      "monthlyRent": null,
+      "type": "house",
+      "status": "available",
+      "listingType": "purchase",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2400,
+      "lotSize": "0.3 acres",
+      "yearBuilt": 2015,
+      "images": [
+        "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "description": "Perfect family home in quiet neighborhood with excellent schools and community amenities.",
+      "amenities": [
+        "Swimming Pool",
+        "Large Backyard",
+        "Updated Kitchen",
+        "Hardwood Floors",
+        "Two-Car Garage",
+        "Solar Panels"
+      ],
+      "location": {
+        "lat": 34.1478,
+        "lng": -118.1445,
+        "neighborhood": "Pasadena Hills",
+        "walkScore": 68
+      },
+      "agentId": "agent-3",
+      "availability": {
+        "availableDates": [
+          "2025-11-14",
+          "2025-11-16",
+          "2025-11-17",
+          "2025-11-18",
+          "2025-11-21",
+          "2025-11-23",
+          "2025-11-24",
+          "2025-11-25",
+          "2025-11-28",
+          "2025-11-30",
+          "2025-12-02",
+          "2025-12-03",
+          "2025-12-05",
+          "2025-12-07",
+          "2025-12-09"
+        ],
+        "timeSlots": [
+          {
+            "time": "08:30 AM",
+            "available": true
+          },
+          {
+            "time": "09:30 AM",
+            "available": true
+          },
+          {
+            "time": "10:30 AM",
+            "available": false
+          },
+          {
+            "time": "11:30 AM",
+            "available": true
+          },
+          {
+            "time": "12:30 PM",
+            "available": true
+          },
+          {
+            "time": "01:30 PM",
+            "available": true
+          },
+          {
+            "time": "02:30 PM",
+            "available": false
+          },
+          {
+            "time": "03:30 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-01-05"
+    },
+    {
+      "id": "prop-8",
+      "title": "Investment Apartment Building",
+      "address": "789 Commerce Street, Los Angeles, CA 90021",
+      "price": 2500000,
+      "monthlyRent": 20000,
+      "type": "multi-unit",
+      "status": "available",
+      "listingType": "purchase",
+      "units": 12,
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": 12000,
+      "yearBuilt": 2018,
+      "images": [
+        "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "description": "Excellent investment opportunity with 12 rental units generating consistent monthly income.",
+      "amenities": [
+        "Commercial Zoning",
+        "Tenant Parking",
+        "Security System",
+        "Separate Utilities",
+        "High Occupancy Rate"
+      ],
+      "location": {
+        "lat": 34.0333,
+        "lng": -118.2426,
+        "neighborhood": "Commercial District",
+        "walkScore": 89
+      },
+      "agentId": "agent-1",
+      "availability": {
+        "availableDates": [
+          "2025-11-15",
+          "2025-11-17",
+          "2025-11-18",
+          "2025-11-20",
+          "2025-11-22",
+          "2025-11-24",
+          "2025-11-26",
+          "2025-11-27",
+          "2025-11-29",
+          "2025-12-01",
+          "2025-12-03",
+          "2025-12-04",
+          "2025-12-06",
+          "2025-12-08",
+          "2025-12-10"
+        ],
+        "timeSlots": [
+          {
+            "time": "08:00 AM",
+            "available": true
+          },
+          {
+            "time": "09:00 AM",
+            "available": true
+          },
+          {
+            "time": "10:00 AM",
+            "available": false
+          },
+          {
+            "time": "11:00 AM",
+            "available": true
+          },
+          {
+            "time": "12:00 PM",
+            "available": true
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": false
+          },
+          {
+            "time": "03:00 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": {
+        "outright": true,
+        "installments": {
+          "available": true,
+          "plans": [
+            6,
+            12,
+            18
+          ]
+        }
+      },
+      "listingDate": "2024-01-12"
+    },
+    {
+      "id": "prop-9",
+      "title": "Mountain View Cabin",
+      "address": "123 Forest Road, Big Bear, CA 92315",
+      "price": 350000,
+      "monthlyRent": 1800,
+      "type": "house",
+      "status": "rented",
+      "listingType": "rent",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1400,
+      "lotSize": "1.2 acres",
+      "yearBuilt": 2010,
+      "images": [
+        "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "description": "Cozy mountain cabin perfect for weekend getaways or rental investment. Great rental history.",
+      "amenities": [
+        "Wood Burning Fireplace",
+        "Wrap-around Deck",
+        "Mountain Views",
+        "Hot Tub",
+        "Hiking Trails Access"
+      ],
+      "location": {
+        "lat": 34.2439,
+        "lng": -116.9114,
+        "neighborhood": "Big Bear Lake",
+        "walkScore": 35
+      },
+      "agentId": "agent-2",
+      "availability": {
+        "availableDates": [
+          "2025-11-14",
+          "2025-11-16",
+          "2025-11-19",
+          "2025-11-21",
+          "2025-11-23",
+          "2025-11-24",
+          "2025-11-26",
+          "2025-11-28",
+          "2025-11-30",
+          "2025-12-02",
+          "2025-12-04",
+          "2025-12-05",
+          "2025-12-07",
+          "2025-12-09",
+          "2025-12-11"
+        ],
+        "timeSlots": [
+          {
+            "time": "09:00 AM",
+            "available": true
+          },
+          {
+            "time": "10:00 AM",
+            "available": false
+          },
+          {
+            "time": "11:00 AM",
+            "available": true
+          },
+          {
+            "time": "12:00 PM",
+            "available": true
+          },
+          {
+            "time": "01:00 PM",
+            "available": true
+          },
+          {
+            "time": "02:00 PM",
+            "available": false
+          },
+          {
+            "time": "03:00 PM",
+            "available": true
+          },
+          {
+            "time": "04:00 PM",
+            "available": true
+          }
+        ]
+      },
+      "paymentOptions": null,
+      "listingDate": "2024-01-03"
+    }
+  ],
+  "customerProperties": [
+    {
+      "id": "uprop-1",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "acquisitionType": "purchase",
+      "acquisitionDate": "2025-12-02",
+      "status": "owned"
+    },
+    {
+      "id": "uprop-2",
+      "customerId": "customer-1",
+      "propertyId": "prop-9",
+      "acquisitionType": "rent",
+      "acquisitionDate": "2026-03-06",
+      "status": "renting",
+      "rentStartDate": "2026-03-06",
+      "rentEndDate": "2027-03-06",
+      "monthlyRent": 1800,
+      "currentTenant": {
+        "name": "Ashley Johnson",
+        "startDate": "2026-03-06",
+        "monthlyRent": 1800,
+        "securityDeposit": 800
+      }
+    }
+  ],
+  "ownerships": [
+    {
+      "id": "own-1",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "ownershipShare": 100,
+      "acquiredDate": "2025-12-02",
+      "acquisitionType": "purchase",
+      "purchasePrice": 750000
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "propertyId": "prop-1",
+      "customerId": "customer-1",
+      "name": "Title Deed",
+      "type": "pdf",
+      "sizeBytes": 2516582,
+      "uploadDate": "2024-10-15"
+    },
+    {
+      "id": "doc-2",
+      "propertyId": "prop-1",
+      "customerId": "customer-1",
+      "name": "Purchase Contract",
+      "type": "pdf",
+      "sizeBytes": 1887436,
+      "uploadDate": "2024-10-20"
+    },
+    {
+      "id": "doc-3",
+      "propertyId": "prop-1",
+      "customerId": "customer-1",
+      "name": "Floor Plan",
+      "type": "pdf",
+      "sizeBytes": 3355443,
+      "uploadDate": "2024-10-18"
+    },
+    {
+      "id": "doc-10",
+      "propertyId": "prop-5",
+      "customerId": null,
+      "name": "Floor Plan",
+      "type": "pdf",
+      "sizeBytes": 1258291,
+      "uploadDate": "2024-01-15"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav-1775607419501",
+      "customerId": "customer-1",
+      "propertyId": "prop-5",
+      "addedAt": "2026-04-08T00:16:59.501Z"
+    },
+    {
+      "id": "fav-1775607419537",
+      "customerId": "customer-1",
+      "propertyId": "prop-5",
+      "addedAt": "2026-04-08T00:16:59.537Z"
+    },
+    {
+      "id": "fav-1775856422958",
+      "customerId": "1",
+      "addedAt": "2026-04-10T21:27:02.958Z"
+    },
+    {
+      "id": "fav-1776682402413",
+      "customerId": "customer-1",
+      "propertyId": "prop-4",
+      "addedAt": "2026-04-20T10:53:22.413Z"
+    },
+    {
+      "id": "fav-1776682402442",
+      "customerId": "customer-1",
+      "propertyId": "prop-4",
+      "addedAt": "2026-04-20T10:53:22.442Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1764644017036",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "paymentNumber": "PAY-1764644017036",
+      "status": "paid",
+      "type": "initial_payment",
+      "amount": 225000,
+      "dueDate": "2025-12-02",
+      "paidDate": "2025-12-02",
+      "paymentMethod": "bank_transfer",
+      "breakdown": {
+        "baseAmount": 225000,
+        "processingFee": 0
+      }
+    },
+    {
+      "id": "pay-1772825712406",
+      "customerId": "customer-1",
+      "propertyId": "prop-9",
+      "paymentNumber": "PAY-1772825712406",
+      "status": "paid",
+      "type": "rent",
+      "amount": 3000,
+      "dueDate": "2026-03-06",
+      "paidDate": "2026-03-06",
+      "paymentMethod": "bank_transfer",
+      "breakdown": {
+        "firstMonthRent": 1800,
+        "securityDeposit": 800,
+        "cleaningFee": 250,
+        "maintenanceFee": 150,
+        "processingFee": 0
+      }
+    },
+    {
+      "id": "aa85",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "paymentNumber": "PAY-1776724862395",
+      "status": "paid",
+      "type": "monthly_installment",
+      "amount": 87500,
+      "dueDate": "2026-01-02",
+      "paidDate": "2026-04-20",
+      "paymentMethod": "credit_card",
+      "description": "Monthly Installment Payment",
+      "breakdown": {
+        "baseAmount": 87500,
+        "processingFee": 0
+      }
+    },
+    {
+      "id": "8c44",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "paymentNumber": "PAY-1776953023883",
+      "status": "paid",
+      "type": "monthly_installment",
+      "amount": 87500,
+      "dueDate": "2026-02-02",
+      "paidDate": "2026-04-23",
+      "paymentMethod": "credit_card",
+      "description": "Monthly Installment Payment",
+      "breakdown": {
+        "baseAmount": 87500,
+        "processingFee": 0
+      }
+    },
+    {
+      "id": "b6f1",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "paymentNumber": "PAY-1776953645709",
+      "status": "paid",
+      "type": "monthly_installment",
+      "amount": 87500,
+      "dueDate": "2026-03-02",
+      "paidDate": "2026-04-23",
+      "paymentMethod": "credit_card",
+      "description": "Monthly Installment Payment",
+      "breakdown": {
+        "baseAmount": 87500,
+        "processingFee": 0
+      }
+    },
+    {
+      "id": "27ab",
+      "customerId": "customer-1",
+      "propertyId": "prop-9",
+      "paymentNumber": "PAY-1777072407995",
+      "status": "paid",
+      "type": "rent",
+      "amount": 1800,
+      "dueDate": "2026-04-06",
+      "paidDate": "2026-04-24",
+      "paymentMethod": "credit_card",
+      "description": "Monthly Rent (Month 2)",
+      "breakdown": {
+        "baseAmount": 1800,
+        "processingFee": 0
+      }
+    }
+  ],
+  "invoices": [],
+  "bookings": [
+    {
+      "id": "booking-1764647927906",
+      "customerId": "customer-1",
+      "propertyId": "prop-8",
+      "status": "confirmed",
+      "date": "2025-12-31",
+      "time": "11:00 AM",
+      "notes": "Let's meet",
+      "contactInfo": {
+        "fullName": "Ashley Johnson",
+        "email": "ashley.johnson@email.com",
+        "phone": "080713675651"
+      },
+      "createdAt": "2025-12-02T03:58:47.906Z"
+    }
+  ],
+  "paymentSchedules": [
+    {
+      "id": "schedule-1764644017230",
+      "customerId": "customer-1",
+      "propertyId": "prop-1",
+      "type": "installment",
+      "totalAmount": 750000,
+      "amountPaid": 487500,
+      "remainingBalance": 262500,
+      "installments": [
+        {
+          "number": 1,
+          "dueDate": "2025-12-02",
+          "amount": 225000,
+          "status": "paid",
+          "paidDate": "2025-12-02",
+          "description": "Initial Payment",
+          "paymentId": "pay-1764644017036"
+        },
+        {
+          "number": 2,
+          "dueDate": "2026-01-02",
+          "amount": 87500,
+          "status": "paid",
+          "description": "Monthly Installment Payment",
+          "paidDate": "2026-04-20",
+          "paymentId": "aa85"
+        },
+        {
+          "number": 3,
+          "dueDate": "2026-02-02",
+          "amount": 87500,
+          "status": "paid",
+          "description": "Monthly Installment Payment",
+          "paidDate": "2026-04-23",
+          "paymentId": "8c44"
+        },
+        {
+          "number": 4,
+          "dueDate": "2026-03-02",
+          "amount": 87500,
+          "status": "paid",
+          "description": "Monthly Installment Payment",
+          "paidDate": "2026-04-23",
+          "paymentId": "b6f1"
+        },
+        {
+          "number": 5,
+          "dueDate": "2026-04-02",
+          "amount": 87500,
+          "status": "scheduled",
+          "description": "Monthly Installment Payment"
+        },
+        {
+          "number": 6,
+          "dueDate": "2026-05-02",
+          "amount": 87500,
+          "status": "scheduled",
+          "description": "Monthly Installment Payment"
+        },
+        {
+          "number": 7,
+          "dueDate": "2026-06-02",
+          "amount": 87500,
+          "status": "scheduled",
+          "description": "Monthly Installment Payment"
+        }
+      ]
+    },
+    {
+      "id": "rental-schedule-1772825712863",
+      "customerId": "customer-1",
+      "propertyId": "prop-9",
+      "type": "rental",
+      "leaseStart": "2026-03-06",
+      "leaseEnd": "2027-03-06",
+      "monthlyRent": 1800,
+      "securityDeposit": 800,
+      "cleaningFee": 250,
+      "maintenanceFee": 150,
+      "totalAmount": 3000,
+      "amountPaid": 4800,
+      "remainingBalance": 0,
+      "installments": [
+        {
+          "number": 1,
+          "dueDate": "2026-03-06",
+          "amount": 3000,
+          "status": "paid",
+          "paidDate": "2026-03-06",
+          "type": "initial_payment",
+          "description": "First Month Rent + Fees",
+          "paymentId": "pay-1772825712406",
+          "breakdown": {
+            "firstMonthRent": 1800,
+            "securityDeposit": 800,
+            "cleaningFee": 250,
+            "maintenanceFee": 150
+          }
+        },
+        {
+          "number": 2,
+          "dueDate": "2026-04-06",
+          "amount": 1800,
+          "status": "paid",
+          "type": "rent",
+          "description": "Monthly Rent (Month 2)",
+          "paidDate": "2026-04-24",
+          "paymentId": "27ab"
+        },
+        {
+          "number": 3,
+          "dueDate": "2026-05-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 3)"
+        },
+        {
+          "number": 4,
+          "dueDate": "2026-06-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 4)"
+        },
+        {
+          "number": 5,
+          "dueDate": "2026-07-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 5)"
+        },
+        {
+          "number": 6,
+          "dueDate": "2026-08-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 6)"
+        },
+        {
+          "number": 7,
+          "dueDate": "2026-09-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 7)"
+        },
+        {
+          "number": 8,
+          "dueDate": "2026-10-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 8)"
+        },
+        {
+          "number": 9,
+          "dueDate": "2026-11-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 9)"
+        },
+        {
+          "number": 10,
+          "dueDate": "2026-12-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 10)"
+        },
+        {
+          "number": 11,
+          "dueDate": "2027-01-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 11)"
+        },
+        {
+          "number": 12,
+          "dueDate": "2027-02-06",
+          "amount": 1800,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 12)"
+        }
+      ],
+      "utilityBills": [
+        {
+          "name": "Electricity Bill",
+          "type": "electricity",
+          "amount": 150
+        },
+        {
+          "name": "Water Bill",
+          "type": "water",
+          "amount": 50
+        },
+        {
+          "name": "Maintenance Fee",
+          "type": "maintenance",
+          "amount": 150
+        }
+      ],
+      "monthlyUtilitySchedules": [
+        {
+          "month": 1,
+          "dueDate": "2026-04-06",
+          "bills": []
+        },
+        {
+          "month": 2,
+          "dueDate": "2026-05-06",
+          "bills": []
+        },
+        {
+          "month": 3,
+          "dueDate": "2026-06-06",
+          "bills": []
+        },
+        {
+          "month": 4,
+          "dueDate": "2026-07-06",
+          "bills": []
+        },
+        {
+          "month": 5,
+          "dueDate": "2026-08-06",
+          "bills": []
+        },
+        {
+          "month": 6,
+          "dueDate": "2026-09-06",
+          "bills": []
+        },
+        {
+          "month": 7,
+          "dueDate": "2026-10-06",
+          "bills": []
+        },
+        {
+          "month": 8,
+          "dueDate": "2026-11-06",
+          "bills": []
+        },
+        {
+          "month": 9,
+          "dueDate": "2026-12-06",
+          "bills": []
+        },
+        {
+          "month": 10,
+          "dueDate": "2027-01-06",
+          "bills": []
+        },
+        {
+          "month": 11,
+          "dueDate": "2027-02-06",
+          "bills": []
+        },
+        {
+          "month": 12,
+          "dueDate": "2027-03-06",
+          "bills": []
+        }
+      ],
+      "maintenanceRequests": [],
+      "importantDates": {
+        "leaseStart": "2026-03-06",
+        "leaseEnd": "2027-03-06",
+        "nextRentDue": "2026-04-06",
+        "annualTaxDue": "2027-03-06"
+      },
+      "utilityCategories": [
+        {
+          "name": "Electricity",
+          "description": "Power consumption charges",
+          "averageMonthlyCost": 120
+        },
+        {
+          "name": "Water",
+          "description": "Water usage and sewage",
+          "averageMonthlyCost": 80
+        },
+        {
+          "name": "Gas",
+          "description": "Natural gas for heating/cooking",
+          "averageMonthlyCost": 60
+        },
+        {
+          "name": "Internet/Cable",
+          "description": "Internet and television services",
+          "averageMonthlyCost": 90
+        },
+        {
+          "name": "Municipal Services",
+          "description": "Trash collection and other city services",
+          "averageMonthlyCost": 30
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-1",
+      "customerId": "customer-1",
+      "agentId": "agent-1",
+      "lastMessage": "jkhghfgdsdjfghj",
+      "lastMessageTime": "2026-03-06T19:51:44.805Z",
+      "unreadCount": 0,
+      "isOnline": true,
+      "isArchived": false,
+      "messages": [
+        {
+          "id": "msg-1",
+          "senderId": "agent-1",
+          "content": "Hey, this is amazing",
+          "timestamp": "2025-10-23T14:25:00Z",
+          "read": true
+        },
+        {
+          "id": "msg-2",
+          "senderId": "customer-1",
+          "content": "perfect 👍",
+          "timestamp": "2025-10-23T14:26:00Z",
+          "read": true
+        },
+        {
+          "id": "msg-3",
+          "senderId": "agent-1",
+          "content": "Wow, this is really amazing spec.",
+          "timestamp": "2025-10-23T14:28:00Z",
+          "read": true
+        },
+        {
+          "id": "msg-4",
+          "senderId": "customer-1",
+          "content": "Wow, this is really amazing spec.",
+          "timestamp": "2025-10-23T14:29:00Z",
+          "read": true
+        },
+        {
+          "id": "msg-5",
+          "senderId": "agent-1",
+          "content": "Thanks for the business.",
+          "timestamp": "2025-10-23T14:30:00Z",
+          "read": true
+        },
+        {
+          "id": "msg-1760744703668",
+          "senderId": "customer-1",
+          "content": "Hi, Rachel!",
+          "timestamp": "2025-10-17T23:45:03.668Z",
+          "read": true
+        },
+        {
+          "id": "msg-1760788612819",
+          "senderId": "customer-1",
+          "content": "Good evening!",
+          "timestamp": "2025-10-18T11:56:52.819Z",
+          "read": true
+        },
+        {
+          "id": "msg-1761159984646",
+          "senderId": "customer-1",
+          "content": "Hello",
+          "timestamp": "2025-10-22T19:06:24.646Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741268745004",
+          "senderId": "customer-1",
+          "content": "jk",
+          "timestamp": "2026-03-06T13:45:45.004Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741290704805",
+          "senderId": "customer-1",
+          "content": "jkhghfgdsdjfghj",
+          "timestamp": "2026-03-06T19:51:44.805Z",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "conv-2",
+      "customerId": "customer-1",
+      "agentId": "agent-2",
+      "lastMessage": "Hello, Francis",
+      "lastMessageTime": "2025-10-18T16:48:29.078Z",
+      "unreadCount": 5,
+      "isOnline": true,
+      "isArchived": false,
+      "messages": [
+        {
+          "id": "msg-6",
+          "senderId": "agent-2",
+          "content": "just ideas for next time",
+          "timestamp": "2025-10-23T14:15:00Z",
+          "read": false
+        },
+        {
+          "id": "msg-7",
+          "senderId": "agent-2",
+          "content": "I'll be there in 2 mins ⏰",
+          "timestamp": "2025-10-23T14:16:00Z",
+          "read": false
+        },
+        {
+          "id": "msg-8",
+          "senderId": "agent-2",
+          "content": "aww",
+          "timestamp": "2025-10-23T14:18:00Z",
+          "read": false
+        },
+        {
+          "id": "msg-9",
+          "senderId": "agent-2",
+          "content": "omg, this is amazing",
+          "timestamp": "2025-10-23T14:19:00Z",
+          "read": false
+        },
+        {
+          "id": "msg-10",
+          "senderId": "agent-2",
+          "content": "woohooo 🔥",
+          "timestamp": "2025-10-23T14:20:00Z",
+          "read": false
+        },
+        {
+          "id": "msg-1760806109078",
+          "senderId": "customer-1",
+          "content": "Hello, Francis",
+          "timestamp": "2025-10-18T16:48:29.078Z",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "conv-3",
+      "customerId": "customer-1",
+      "agentId": "agent-3",
+      "lastMessage": "hjiou",
+      "lastMessageTime": "2026-03-06T13:45:54.109Z",
+      "unreadCount": 0,
+      "isOnline": true,
+      "isArchived": false,
+      "messages": [
+        {
+          "id": "msg-11",
+          "senderId": "agent-3",
+          "content": "Just done for next time",
+          "timestamp": "2025-10-23T12:30:00Z",
+          "read": true
+        },
+        {
+          "id": "msg-1732891348863",
+          "senderId": "customer-1",
+          "content": "Hola",
+          "timestamp": "2025-11-29T14:42:28.863Z",
+          "read": true
+        },
+        {
+          "id": "msg-1733112139410",
+          "senderId": "customer-1",
+          "content": "Hi Jack!",
+          "timestamp": "2025-12-02T04:02:19.410Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741254463991",
+          "senderId": "customer-1",
+          "content": "h1",
+          "timestamp": "2026-03-06T09:27:43.991Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741254479348",
+          "senderId": "customer-1",
+          "content": "hello",
+          "timestamp": "2026-03-06T09:27:59.348Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741267465933",
+          "senderId": "customer-1",
+          "content": "hi",
+          "timestamp": "2026-03-06T13:34:25.933Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741267478909",
+          "senderId": "customer-1",
+          "content": "klj",
+          "timestamp": "2026-03-06T13:34:38.909Z",
+          "read": true
+        },
+        {
+          "id": "msg-1741268754109",
+          "senderId": "customer-1",
+          "content": "hjiou",
+          "timestamp": "2026-03-06T13:45:54.109Z",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "conv-4",
+      "customerId": "customer-1",
+      "agentId": "agent-4",
+      "lastMessage": "Great work!",
+      "lastMessageTime": "2025-10-23T09:15:00Z",
+      "unreadCount": 0,
+      "isOnline": true,
+      "isArchived": false,
+      "messages": []
+    },
+    {
+      "id": "conv-5",
+      "customerId": "customer-1",
+      "agentId": "agent-5",
+      "lastMessage": "See you soon",
+      "lastMessageTime": "2025-02-10T16:00:00Z",
+      "unreadCount": 0,
+      "isOnline": false,
+      "isArchived": false,
+      "messages": []
+    },
+    {
+      "id": "conv-6",
+      "customerId": "customer-1",
+      "agentId": "agent-6",
+      "lastMessage": "Thanks!",
+      "lastMessageTime": "2024-11-15T10:00:00Z",
+      "unreadCount": 0,
+      "isOnline": false,
+      "isArchived": false,
+      "messages": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1764644017269",
+      "customerId": "customer-1",
+      "type": "payment_success",
+      "title": "Initial Payment Successful!",
+      "message": "Your initial payment of $225,000 for Spacious Family House has been processed. Your installment plan is now active.",
+      "propertyId": "prop-1",
+      "propertyTitle": "Spacious Family House",
+      "propertyImage": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "link": "/portal/properties/prop-1/payments",
+      "read": false,
+      "createdAt": "2025-12-02T02:53:37.269Z"
+    },
+    {
+      "id": "notif-1772825712940",
+      "customerId": "customer-1",
+      "type": "payment_success",
+      "title": "Rental Payment Successful!",
+      "message": "Your rental payment of $3,000 for Mountain View Cabin has been processed. Welcome to your new home!",
+      "propertyId": "prop-9",
+      "propertyTitle": "Mountain View Cabin",
+      "propertyImage": "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "link": "/portal/properties/prop-9/payments",
+      "read": false,
+      "createdAt": "2026-03-06T19:35:12.940Z"
+    }
+  ],
+  "settings": [
+    {
+      "id": "settings-customer-1",
+      "customerId": "customer-1",
+      "notifications": {
+        "emailNotifications": true,
+        "propertyUpdates": false,
+        "documentUpdates": false,
+        "partnerRequests": true
+      },
+      "account": {
+        "language": "English",
+        "theme": "light"
+      },
+      "privacyAndData": {
+        "dataCollection": true,
+        "autoSave": false
+      }
+    },
+    {
+      "id": "settings-customer-2",
+      "customerId": "customer-2",
+      "notifications": {
+        "emailNotifications": true,
+        "propertyUpdates": false,
+        "documentUpdates": false,
+        "partnerRequests": false
+      },
+      "account": {
+        "language": "English",
+        "theme": "dark"
+      },
+      "privacyAndData": {
+        "dataCollection": false,
+        "autoSave": false
+      }
+    },
+    {
+      "id": "settings-1776183008485",
+      "customerId": "customer-1776178397495",
+      "notifications": {
+        "emailNotifications": false,
+        "propertyUpdates": true,
+        "documentUpdates": true,
+        "partnerRequests": true
+      },
+      "account": {
+        "language": "English",
+        "theme": "light"
+      },
+      "privacyAndData": {
+        "dataCollection": true,
+        "autoSave": true
+      }
+    }
+  ]
+}
