@@ -2,6 +2,7 @@
   "customers": [
     {
       "id": "customer-1",
+      "uuid": "a1b2c3d4-0001-4000-8000-000000000001",
       "firstName": "Ashley",
       "lastName": "Johnson",
       "title": "Mrs",
@@ -41,6 +42,7 @@
     },
     {
       "id": "customer-2",
+      "uuid": "a1b2c3d4-0002-4000-8000-000000000002",
       "firstName": "John",
       "lastName": "Doe",
       "title": "Mr",
@@ -68,6 +70,7 @@
     },
     {
       "id": "customer-1776170260696",
+      "uuid": "a1b2c3d4-0003-4000-8000-000000000003",
       "firstName": "lkj",
       "lastName": "kjkhjb",
       "title": "Mr",
@@ -84,6 +87,7 @@
     },
     {
       "id": "customer-1776178397495",
+      "uuid": "a1b2c3d4-0004-4000-8000-000000000004",
       "firstName": "hjg",
       "lastName": "jkhghhjb",
       "title": "Mr",
@@ -102,7 +106,7 @@
         "propertyType": "house",
         "budgetRange": {
           "min": 50000,
-          "max": "2640000"
+          "max": 2640000
         }
       }
     }
@@ -259,11 +263,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-10-01"
@@ -283,11 +283,7 @@
         "https://images.pexels.com/photos/2609204/pexels-photo-2609204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       ],
       "description": "Prime commercial space in a high-traffic area, ideal for retail or office use.",
-      "amenities": [
-        "Elevator",
-        "Parking",
-        "Security"
-      ],
+      "amenities": ["Elevator", "Parking", "Security"],
       "location": {
         "lat": 34.0333,
         "lng": -118.2426,
@@ -368,12 +364,7 @@
         "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       ],
       "description": "Stunning seaside villa with breathtaking ocean views and direct beach access.",
-      "amenities": [
-        "Ocean View",
-        "Pool",
-        "Garage",
-        "Security System"
-      ],
+      "amenities": ["Ocean View", "Pool", "Garage", "Security System"],
       "location": {
         "lat": 34.0322,
         "lng": -118.6737,
@@ -438,11 +429,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-08-01"
@@ -464,11 +451,7 @@
         "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "description": "Charming mountain retreat with stunning views, perfect as a vacation home or investment property.",
-      "amenities": [
-        "Fireplace",
-        "Mountain View",
-        "Deck"
-      ],
+      "amenities": ["Fireplace", "Mountain View", "Deck"],
       "location": {
         "lat": 34.2437,
         "lng": -116.9114,
@@ -533,11 +516,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-07-01"
@@ -631,11 +610,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-01-10"
@@ -731,11 +706,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-01-08"
@@ -831,11 +802,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-01-05"
@@ -929,11 +896,7 @@
         "outright": true,
         "installments": {
           "available": true,
-          "plans": [
-            6,
-            12,
-            18
-          ]
+          "plans": [6, 12, 18]
         }
       },
       "listingDate": "2024-01-12"
@@ -1050,6 +1013,23 @@
         "name": "Ashley Johnson",
         "startDate": "2026-03-06",
         "monthlyRent": 1800,
+        "securityDeposit": 800
+      }
+    },
+    {
+      "id": "uprop-1777047127071-7sxzs",
+      "customerId": "customer-1",
+      "propertyId": "prop-2",
+      "acquisitionType": "rent",
+      "acquisitionDate": "2026-04-24",
+      "status": "renting",
+      "rentStartDate": "2026-04-24",
+      "rentEndDate": "2027-04-24",
+      "monthlyRent": 18000,
+      "currentTenant": {
+        "name": "Ashley Johnson",
+        "startDate": "2026-04-24",
+        "monthlyRent": 18000,
         "securityDeposit": 800
       }
     }
@@ -1237,9 +1217,42 @@
         "baseAmount": 1800,
         "processingFee": 0
       }
+    },
+    {
+      "id": "76f1",
+      "customerId": "customer-1",
+      "propertyId": "prop-9",
+      "paymentNumber": "PAY-1777460730809",
+      "status": "paid",
+      "type": "rent",
+      "amount": 1800,
+      "dueDate": "2026-05-06",
+      "paidDate": "2026-04-29",
+      "paymentMethod": "credit_card",
+      "description": "Monthly Rent (Month 3)",
+      "breakdown": {
+        "baseAmount": 1800,
+        "processingFee": 0
+      }
+    },
+    {
+      "id": "29ae",
+      "customerId": "customer-1",
+      "propertyId": "prop-9",
+      "paymentNumber": "PAY-1777463430911",
+      "status": "paid",
+      "type": "rent",
+      "amount": 1800,
+      "dueDate": "2026-06-06",
+      "paidDate": "2026-04-29",
+      "paymentMethod": "credit_card",
+      "description": "Monthly Rent (Month 4)",
+      "breakdown": {
+        "baseAmount": 1800,
+        "processingFee": 0
+      }
     }
   ],
-  "invoices": [],
   "bookings": [
     {
       "id": "booking-1764647927906",
@@ -1255,6 +1268,33 @@
         "phone": "080713675651"
       },
       "createdAt": "2025-12-02T03:58:47.906Z"
+    },
+    {
+      "id": "DS-bG6UaMt4",
+      "customerId": "customer-1",
+      "propertyId": "prop-202",
+      "status": "pending",
+      "date": "2026-05-01",
+      "time": "10:00 AM",
+      "type": "viewing",
+      "notes": "Viewing request for Villa 12",
+      "createdAt": "2026-04-30T21:35:34.407Z"
+    },
+    {
+      "id": "dNlnL_GxkPw",
+      "customerId": "customer-1",
+      "propertyId": "prop-102",
+      "status": "pending",
+      "date": "2026-05-05",
+      "time": "1:00 PM",
+      "type": "viewing",
+      "notes": "yoohoo",
+      "contactInfo": {
+        "fullName": "Ashley Johnson",
+        "email": "ashley.johnson@email.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "createdAt": "2026-05-01T11:40:52.344Z"
     }
   ],
   "paymentSchedules": [
@@ -1338,7 +1378,7 @@
       "cleaningFee": 250,
       "maintenanceFee": 150,
       "totalAmount": 3000,
-      "amountPaid": 4800,
+      "amountPaid": 8400,
       "remainingBalance": 0,
       "installments": [
         {
@@ -1371,17 +1411,21 @@
           "number": 3,
           "dueDate": "2026-05-06",
           "amount": 1800,
-          "status": "scheduled",
+          "status": "paid",
           "type": "rent",
-          "description": "Monthly Rent (Month 3)"
+          "description": "Monthly Rent (Month 3)",
+          "paidDate": "2026-04-29",
+          "paymentId": "76f1"
         },
         {
           "number": 4,
           "dueDate": "2026-06-06",
           "amount": 1800,
-          "status": "scheduled",
+          "status": "paid",
           "type": "rent",
-          "description": "Monthly Rent (Month 4)"
+          "description": "Monthly Rent (Month 4)",
+          "paidDate": "2026-04-29",
+          "paymentId": "29ae"
         },
         {
           "number": 5,
@@ -1559,6 +1603,127 @@
           "name": "Municipal Services",
           "description": "Trash collection and other city services",
           "averageMonthlyCost": 30
+        }
+      ]
+    },
+    {
+      "id": "rental-schedule-1777047127081-cz86k",
+      "customerId": "customer-1",
+      "propertyId": "prop-2",
+      "type": "rental",
+      "leaseStart": "2026-04-24",
+      "leaseEnd": "2027-04-24",
+      "monthlyRent": 18000,
+      "securityDeposit": 800,
+      "cleaningFee": 250,
+      "maintenanceFee": 150,
+      "totalAmount": 19200,
+      "amountPaid": 19200,
+      "remainingBalance": 0,
+      "installments": [
+        {
+          "number": 1,
+          "dueDate": "2026-04-24",
+          "amount": 19200,
+          "status": "paid",
+          "paidDate": "2026-04-24",
+          "type": "initial_payment",
+          "description": "First Month Rent + Fees",
+          "paymentId": "pay-1777047127037-03xip",
+          "breakdown": {
+            "firstMonthRent": 18000,
+            "securityDeposit": 800,
+            "cleaningFee": 250,
+            "maintenanceFee": 150
+          }
+        },
+        {
+          "number": 2,
+          "dueDate": "2026-05-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 2)"
+        },
+        {
+          "number": 3,
+          "dueDate": "2026-06-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 3)"
+        },
+        {
+          "number": 4,
+          "dueDate": "2026-07-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 4)"
+        },
+        {
+          "number": 5,
+          "dueDate": "2026-08-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 5)"
+        },
+        {
+          "number": 6,
+          "dueDate": "2026-09-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 6)"
+        },
+        {
+          "number": 7,
+          "dueDate": "2026-10-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 7)"
+        },
+        {
+          "number": 8,
+          "dueDate": "2026-11-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 8)"
+        },
+        {
+          "number": 9,
+          "dueDate": "2026-12-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 9)"
+        },
+        {
+          "number": 10,
+          "dueDate": "2027-01-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 10)"
+        },
+        {
+          "number": 11,
+          "dueDate": "2027-02-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 11)"
+        },
+        {
+          "number": 12,
+          "dueDate": "2027-03-24",
+          "amount": 18000,
+          "status": "scheduled",
+          "type": "rent",
+          "description": "Monthly Rent (Month 12)"
         }
       ]
     }
@@ -1813,21 +1978,8 @@
       "propertyTitle": "Spacious Family House",
       "propertyImage": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
       "link": "/portal/properties/prop-1/payments",
-      "read": false,
+      "read": true,
       "createdAt": "2025-12-02T02:53:37.269Z"
-    },
-    {
-      "id": "notif-1772825712940",
-      "customerId": "customer-1",
-      "type": "payment_success",
-      "title": "Rental Payment Successful!",
-      "message": "Your rental payment of $3,000 for Mountain View Cabin has been processed. Welcome to your new home!",
-      "propertyId": "prop-9",
-      "propertyTitle": "Mountain View Cabin",
-      "propertyImage": "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "link": "/portal/properties/prop-9/payments",
-      "read": false,
-      "createdAt": "2026-03-06T19:35:12.940Z"
     }
   ],
   "settings": [
@@ -1835,55 +1987,75 @@
       "id": "settings-customer-1",
       "customerId": "customer-1",
       "notifications": {
-        "emailNotifications": true,
-        "propertyUpdates": false,
-        "documentUpdates": false,
-        "partnerRequests": true
+        "newPropertyAlerts": true,
+        "marketingAndPromotions": true
       },
       "account": {
         "language": "English",
-        "theme": "light"
+        "theme": "light",
+        "preferredLocations": [],
+        "budgetRange": {
+          "min": 4150000,
+          "max": 11350000
+        },
+        "propertyTypes": [],
+        "bedrooms": "3",
+        "bathrooms": "3",
+        "propertyFeatures": []
       },
-      "privacyAndData": {
-        "dataCollection": true,
-        "autoSave": false
+      "security": {
+        "twoFactorEnabled": false,
+        "twoFactorMethod": "email"
       }
     },
     {
       "id": "settings-customer-2",
       "customerId": "customer-2",
       "notifications": {
-        "emailNotifications": true,
-        "propertyUpdates": false,
-        "documentUpdates": false,
-        "partnerRequests": false
+        "newPropertyAlerts": true,
+        "marketingAndPromotions": false
       },
       "account": {
         "language": "English",
-        "theme": "dark"
+        "theme": "dark",
+        "preferredLocations": [],
+        "budgetRange": {
+          "min": 500000,
+          "max": 5000000
+        },
+        "propertyTypes": [],
+        "bedrooms": "3",
+        "propertyFeatures": []
       },
-      "privacyAndData": {
-        "dataCollection": false,
-        "autoSave": false
+      "security": {
+        "twoFactorEnabled": false,
+        "twoFactorMethod": "email"
       }
     },
     {
       "id": "settings-1776183008485",
       "customerId": "customer-1776178397495",
       "notifications": {
-        "emailNotifications": false,
-        "propertyUpdates": true,
-        "documentUpdates": true,
-        "partnerRequests": true
+        "newPropertyAlerts": false,
+        "marketingAndPromotions": true
       },
       "account": {
         "language": "English",
-        "theme": "light"
+        "theme": "light",
+        "preferredLocations": [],
+        "budgetRange": {
+          "min": 500000,
+          "max": 5000000
+        },
+        "propertyTypes": [],
+        "bedrooms": "3",
+        "propertyFeatures": []
       },
-      "privacyAndData": {
-        "dataCollection": true,
-        "autoSave": true
+      "security": {
+        "twoFactorEnabled": false,
+        "twoFactorMethod": "email"
       }
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
